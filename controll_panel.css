@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+b{
+    color: orange;
+}
+.admin-main{
+    width: 100%;
+    height: 100vh;
+    display: inline-flex;
+}
+.left-side{
+    width: 20%;
+    background-color: #484848;
+    box-shadow: 11px 3px 20px 0px rgba(0,0,0,0.68);
+    z-index: 1;
+}
+.left-hero{
+    width: 100%;
+    text-align: center;
+}
+.left-side h2{
+    margin-top: 80px;
+    color: white;
+}
+.admin-panel-list{
+    width: 100%;
+    height: 600px;
+}
+.controll-list li{
+    margin-top: 10px;
+    padding-top: 20px;
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid #EF8F43;
+    transition: .5s;
+    color: white;
+    cursor: pointer;
+}
+.controll-list a{
+    background-color: inherit;
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 5px;
+    color: white;
+}
+.controll-list li:hover{
+    border-bottom: 2.5px solid white;
+}
+.right-side{
+    width: 80%;
+    height: 100vh;
+    overflow: scroll;
+}
+.right-side::-webkit-scrollbar{
+    display: none;
+}
+.firght-side{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.hero-box{
+    position: fixed;
+    margin-left: 15px;
+    padding-bottom: 25px;
+    background-color: #282828;
+    width: 100%;
+    z-index: 0;
+}
+.usernameUpdate{
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #EF8F43;
+    border-radius: 22px;
+    background-color: inherit;
+    outline-style: none;
+    margin-top: 20px;
+    margin-left: 15px;
+    padding-left: 10px;
+    color: white;
+}
+.table-header{
+    list-style: none;
+    display: inline-flex;
+}
+
+table{
+    border-collapse: collapse;
+    margin-top: 250px;
+    margin-left: 15px;
+}
+th{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #EF8F43;
+    border-bottom: 2px solid white;
+}
+tr,td,th{
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+tr:nth-child(odd){
+    background-color: #282828;
+}
+tr:nth-child(even){
+    background-color: #EF8F43;
+}
+.fullName{
+    width: 200px;
+    text-align: center;
+}
+.userName{
+    width: 200px;
+    text-align: center;
+}
+.userRank{
+    width: 100px;
+    text-align: center;
+}
+.userDate{
+    text-align: center;
+}
+.userPermission{
+    text-align: center;
+}
+.approve{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 10px;
+    transition: .5s;
+}
+.approve:hover{
+    scale: 1.1;
+    transition: .5s;
+}
+.lockUser{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 45px;
+    transition: .5s;
+}
+.lockUser:hover{
+    scale: 1.1;
+    transition: .5s;
+}
+.removeUser{
+    position: absolute;
+    transition: .5s;
+    margin-left: 80px;
+    margin-top: 25px;
+}
+.removeUser:hover{
+    scale: 1.1;
+    transition: .5s;
+}

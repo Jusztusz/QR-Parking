@@ -1,0 +1,66 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    height: 90vh;
+    width: 100%;
+    background: #272727;
+    position: relative;
+}
+.main h2{
+    color: white;
+    font-size: 48px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-left: 15px;
+    margin-top: 200px;
+    position: absolute;
+}
+.des{
+    color: white;
+    font-size: 22px;
+    font-family: 'Kanit', sans-serif;
+    margin-left: 15px;
+    width: 900px;
+    margin-top: 300px;
+    position: absolute;
+}
+.btn-box{
+    width: 800px;
+    height: auto;
+    margin-top: 415px;
+    position: absolute;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: inherit;
+    border: 1px solid white;
+    color: white;
+    margin-top: 15px;
+    margin-right: 20px;
+    float: right;
+    cursor: pointer;
+    clip-path: polygon(25% 0%, 100% 0, 100% 50%, 75% 100%, 0 100%, 0% 50%);
+    transition: .5s;
+}
+.btn:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    border-color: #68157E;
+    color: #68157E;
+}
+footer{
+    height: 103px;
+    background-color: #373737;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+.nje-logo{
+    width: 150px;
+    margin-top: 20px;
+}
